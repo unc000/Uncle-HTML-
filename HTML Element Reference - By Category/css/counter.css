@@ -1,0 +1,10 @@
+/* عداد */
+tbody {
+  counter-reset: tr;
+}
+
+tbody tr::before {
+  counter-increment:tr ;
+  content: counter(tr);
+}
+

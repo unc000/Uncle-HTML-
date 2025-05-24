@@ -1,0 +1,34 @@
+
+.MobilityButtons {
+  column-count: 2 ;
+  margin: 10px ;
+}
+
+.MobilityButtons a {
+  color: #000;
+  display: block ;
+  text-decoration: none ;
+}
+
+.MobilityButtons button{
+  border: 1px solid gray ;
+  border-radius: 5px ;
+  font-size: xx-small ;
+  zoom: 90% ;
+  
+}
+
+.Previous button::before{
+  content: "\276E" " ";
+}
+
+.Next {
+  text-align: right ;
+}
+
+.Next button::after {
+  content: " \276F";
+}
+
+
+
